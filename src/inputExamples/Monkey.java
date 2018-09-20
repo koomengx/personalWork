@@ -8,7 +8,7 @@ double height = -999.0;
 Scanner input = new Scanner(System.in);
 System.out.println("How tall is an adult monkey" );
 height = input.nextDouble();
-System.out.println("Adult Monkey =" height + "pounds");
+System.out.println("Adult Monkey = " + height + "inches");
 	}
 
 }

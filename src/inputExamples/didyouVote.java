@@ -9,7 +9,7 @@ boolean vote = false;
 Scanner input = new Scanner(System.in);
 System.out.println("Did you vote?");
 vote = input.nextBoolean();
-System.out.println(vote);
+System.out.println(vote + "you voted");
 	}
 
 }
