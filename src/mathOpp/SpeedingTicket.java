@@ -15,6 +15,8 @@ System.out.println("How many mph were you above the speed limit?");
 speed = input.nextInt();
 price = 55 + (speed * 40);
 System.out.println("Your ticket costs " + price + " dollars");
+
+input.close();
 	}
 
 }
