@@ -10,10 +10,6 @@ Friend sammy = new Friend();
 Friend kyle = new Friend();
 billy.sayMessage();
 kyle.sayMessage();
-Dog annie = new Dog();
-annie.woof();
-annie.attack();
 	}
 
 }
-77
