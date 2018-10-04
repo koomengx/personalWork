@@ -9,7 +9,7 @@ public class NumbersTestClass {
 		Numbers stacy = new Numbers();
 		stacy.sayNumberPlus2(7.5);
 		Numbers jennifer = new Numbers();
-		jennifer.saySum(2, 67);
+		jennifer.saySum(2 , 2);
 	}
 
 }
