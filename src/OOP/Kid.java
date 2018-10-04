@@ -1,19 +1,18 @@
 package OOP;
 
 public class Kid {
-public Kid()
-{
-}
-public void sayMama()
-{
-	System.out.println("Mama");
-}
-public void sayFood()
-{
-	System.out.println("I want Food");
-}
-public void sayStink()
-{
-	System.out.println("I stink");
-}
+	public Kid() {
+	}
+
+	public void sayMama() {
+		System.out.println("Mama");
+	}
+
+	public void sayFood() {
+		System.out.println("I want Food");
+	}
+
+	public void sayStink() {
+		System.out.println("I stink");
+	}
 }

@@ -1,19 +1,18 @@
 package OOP;
 
 public class Car {
-public Car()
-{
-}
-public void sayOdometer()
-{
-	System.out.println("500 miles");
-}
-public void sayFlat()
-{
-	System.out.println("You have a flat tire");
-}
-public void sayThirsty()
-{
-	System.out.println("You are out of gas");
-}
+	public Car() {
+	}
+
+	public void sayOdometer() {
+		System.out.println("500 miles");
+	}
+
+	public void sayFlat() {
+		System.out.println("You have a flat tire");
+	}
+
+	public void sayThirsty() {
+		System.out.println("You are out of gas");
+	}
 }
