@@ -16,4 +16,22 @@ public class Numbers {
 	{ 
 		System.out.println("answer = " + (first + second));
 	}
+	public double returnSquare(double first)
+	{
+		double answer = first * first;
+		System.out.println("answer = " + answer);
+		return answer;
+	}
+	public double returnArea(double length , double width)
+	{
+		double area = length * width;
+		System.out.println("Area = " + area);
+		return area;
+	}
+	public int returnRoundUp(double num)
+	{
+		int temp = (int)Math.ceil(num);
+		System.out.println("Answer = " + temp);
+		return temp;
+	}
 }
