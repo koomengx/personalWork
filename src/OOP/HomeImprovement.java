@@ -16,5 +16,6 @@ public void sayPaint()
 	height = input.nextDouble();
 	area = length * height ;
 	time = area / 200;
+	input.close();
 }
 }
