@@ -61,6 +61,46 @@ public class age {
 		} 
 		THREE NUMBERS
 		*/
+		/*
+		double gpa = 999.99;
+		boolean senior = true;
+		System.out.println("What is your GPA?");
+		gpa = input.nextDouble();
+		System.out.println("Are you a Senior?");
+		senior = input.nextBoolean();
+		if(gpa <= 3.5 && senior == true){
+			System.out.println("You have graduated with honors");
+		}
+		else
+		{
+			System.out.println("You have not graduated with honors");
+		*/
+		/*
+		boolean adult = false;
+		int lucky = 999;
+		int weight = 999;
+		int height = 999;
+		System.out.println("Are you a kid or adult (true if you are an adult)?");
+		adult = input.nextBoolean();
+		if(adult == true){
+			System.out.println("What is your height in inches?");
+			height = input.nextInt();
+			lucky = height * 5;
+			System.out.println("your lucky number is " + lucky);
+		}
+		else
+		{
+			System.out.println("What is your weight in lbs?");
+			weight = input.nextInt();
+			lucky = weight * 2;
+			System.out.println("your lucky number is " + lucky);
+		}
+		*/
+		double first = Math.sqrt(84.3);
+		double second = 999.9;
+		System.out.println("How much money have you recieved?");
+		second = input.nextDouble();
+		if(second)
 		
 		
 	}
