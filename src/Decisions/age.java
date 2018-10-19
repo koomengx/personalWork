@@ -96,13 +96,75 @@ public class age {
 			System.out.println("your lucky number is " + lucky);
 		}
 		*/
-		double first = Math.sqrt(84.3);
-		double second = 999.9;
-		System.out.println("How much money have you recieved?");
-		second = input.nextDouble();
-		if(second)
-		
+		/*
+		double money = -99.99;
+		System.out.println("How much money did you earn for your fifth birthday?");
+		money  = input.nextDouble();
+		if(Math.abs(money - Math.sqrt(84.3))< 0.000001)
+		{
+			System.out.println("You won a good prize");
+			System.out.println("Have fun having breakfast with Cinderela");
+			
+		}
+		else
+		{
+			System.out.println("You won a bad prize");
+			System.out.println("Smokey the Bear says you started the forest fire");
+		}
+		GOOD PRIZE VS BAD PRIZE
+		*/
+		/*
+		int salary = 999;
+		System.out.println("What is your salary?");
+		salary = input.nextInt();
+		if(salary<=20000 ){
+			System.out.println("Worker");
+		}
+		else
+		{
+			if(salary<=40000){
+				System.out.println("Managment");
+			}
+			else
+			{
+				if(salary<=100000){
+					System.out.println("CEO");
+				}
+				else
+				{
+					System.out.println("Owner");
+				}
+			}
+				
+		}
+		SALARY
+		*/
+		int test = 999;
+		int homework = 999;
+		boolean teacher = false;
+		System.out.println("What is your average test score?");
+		test = input.nextInt();
+		System.out.println("What is your homework average?");
+		homework = input.nextInt();
+		System.out.println("Is your teacher nice?(true if they are)");
+		teacher = input.nextBoolean();
+		if(teacher == true && test > homework){
+			System.out.println(test);
+				}
+		else
+			if (teacher == true && test < homework){
+				System.out.println(homework);
+			}
+			else
+		if(teacher == false && test > homework){
+			System.out.println(homework);
+		}
+		if(teacher == false && test < homework)
+			System.out.println(test);
+				
+			}
 		
 	}
+	
 
-}
+
