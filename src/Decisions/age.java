@@ -163,8 +163,4 @@ public class age {
 			System.out.println(test);
 				
 			}
-		
-	}
-	
-
-
+}
