@@ -131,7 +131,7 @@ public class age {
 					System.out.println("CEO");
 				}
 				else
-				{
+						{
 					System.out.println("Owner");
 				}
 			}
@@ -139,6 +139,7 @@ public class age {
 		}
 		SALARY
 		*/
+		/*
 		int test = 999;
 		int homework = 999;
 		boolean teacher = false;
@@ -161,6 +162,14 @@ public class age {
 		}
 		if(teacher == false && test < homework)
 			System.out.println(test);
-				
-			}
-}
+*/		
+	
+	}
+		}
+		
+			
+		
+	
+	
+	
+
