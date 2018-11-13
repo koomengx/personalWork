@@ -26,16 +26,17 @@ public class PracticeStrings {
 		 System.out.println("The full sentence is: " + sentence);
 	WRITE A SENCTENCE
 	*/
-/*
+		/*
 		System.out.println("Write a Sentence");
 		String sentence = input.nextLine();
 		if(sentence.contains("Bob")){
-			boolean contains = true; 
+		boolean	 contains = true; 
 		}
 		System.out.println("The full sentence is: " + sentence);
-		System.out.println("Does the sentence contain Bob?");
+		System.out.println("Does the sentence contain X?");
 		System.out.println(contains);
 	*/
+		/*
 		System.out.println("Enter 2 names: ");
 		String name1 = input.next();
 		String name2 = input.next();
@@ -43,7 +44,19 @@ public class PracticeStrings {
 		System.out.println("The first name is: " + name1);
 		System.out.println("The second name is: " + name2);
 		System.out.println("Comparison: " + name1.compareTo(name2)); 
-	}
-	
+	*/
+		/*
+		System.out.println("Write a sentence:");
+		String sentence = input.nextLine();
+		int character = sentence.length();
+		int counter= 0;
+		for(counter = 0; counter < character; counter++){
+			System.out.println(sentence.charAt(counter));
+		*/
+		String sentence = "My name is Buzz Lightyear";
+		for( int i = 0; i < sentence.length();i++){
+			System.out.println(sentence.substring(i));
+		}
+	}	
 
 }
