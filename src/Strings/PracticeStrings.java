@@ -97,6 +97,7 @@ public class PracticeStrings {
 			
 		}
 	*/
+		/*
 		System.out.println("Write A Sentence");
 		String sentence = input.nextLine();
 		for ( int i = 0; i < sentence.length(); i++){
@@ -109,7 +110,20 @@ public class PracticeStrings {
 			}
 			System.out.println();
 			System.out.println("Original sentence: " + sentence);
-		}}}
+		
+		}
+		*/
+	strings bob = new strings();
+	System.out.println("What is the name of the author?");
+	bob.setName(input.nextLine());
+	System.out.println("What is the essay Text?");
+	bob.newText(input.nextLine());
+	System.out.println("First name: " + bob.charfirst());
+	System.out.println("Authors name contains X: " + bob.charX());
+	System.out.println("The number of words in this essay " + bob.Length());
+	
+	
+		}}
 	
 		
 
