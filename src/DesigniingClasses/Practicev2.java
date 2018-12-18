@@ -11,14 +11,7 @@ public class Practicev2 {
 		ArrayList<Greeter> one = new ArrayList<Greeter>();
 		System.out.println("How many greeters do you want?");
 		int choice = input.nextInt();
-		input.nextLine();
-		for(int i = 0; i < choice; i++){
-			one.add(new Greeter());
-		}
-		for ()
-		{
 			
-		}
 	}
 
 }
