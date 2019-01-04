@@ -1,6 +1,6 @@
 package InterfacesandPolymorphism;
 
-public class Circle {
+public class Circle implements Interfaces{
 	private double radius;
 
 	public Circle() {

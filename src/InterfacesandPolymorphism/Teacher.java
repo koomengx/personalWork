@@ -1,6 +1,6 @@
 package InterfacesandPolymorphism;
 
-public class Teacher {
+public class Teacher implements School{
 	String name;
 	int teacherAge;
 	boolean gender; // true = male

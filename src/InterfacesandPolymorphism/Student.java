@@ -1,6 +1,6 @@
 package InterfacesandPolymorphism;
 
-public class Student {
+public class Student implements School {
 	String name;
 
 	int studentAge;

@@ -1,6 +1,6 @@
 package InterfacesandPolymorphism;
 
-public class Rectangle {
+public class Rectangle implements Interfaces {
 	private double length;
 	private double width;
 
