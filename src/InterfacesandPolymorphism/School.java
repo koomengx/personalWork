@@ -1,8 +1,8 @@
 package InterfacesandPolymorphism;
 
 public interface School {
-public double getName();
+String getName();
 void setName(String xName);
-public double setname();
+int getAge();
 public String toString();
 }
