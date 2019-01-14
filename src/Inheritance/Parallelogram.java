@@ -9,11 +9,14 @@ public class Parallelogram extends Quadrilateral implements Geo {
 	}
 
 	public Parallelogram(double side1, double side2, double ht) {
-		super(side1, side2, side2);
+		super(side1, side2, side1, side2);
 		height = ht;
 	}
 
 	public double area() {
 		return super.getS1() * height;
 	}
+	public String toString(){
+	return "Parallelogram with sides" + super.getS1() + " " + super.getS2() + " " + super.getS3() + " " + super.getS4();
+}
 }
