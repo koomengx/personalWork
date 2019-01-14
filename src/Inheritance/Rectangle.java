@@ -1,20 +1,14 @@
 package Inheritance;
 
-public class Rectangle extends Quadrilateral {
-	private double s1;
-	private double s2;
-	private double s3;
-	private double s4;
+public class Rectangle extends Quadrilateral implements Geo{
 	public Rectangle(){
-		
+		super(10, 10, 10, 10);
 	}
-	public Rectangle(double xS1, double xS2, double xS3, double xS4){
-		s1 = xS1;
-		s2 = xS2;
-		s3 = xS3;
-		s4 = xS4;
+	public Rectangle(double Length, double Width){
+		super(Length, Width, Length, Width);
 	}
 	public double area(){
-		return s1 * s2;
+		return super.getS2() * super.getS1();
 	}
 }
+
