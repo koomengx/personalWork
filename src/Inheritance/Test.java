@@ -7,11 +7,10 @@ public class Test {
 		Ball bounce = new Ball();
 		System.out.println(bounce.method1());
 		System.out.println(bounce.method2());
-		Storage bob = new Storage();
+		Box bob = new Box();
 		System.out.println(bob.method1());
 		System.out.println(bob.method2());
 		System.out.println(bob.method3());
-		System.out.println(bob.method4());
 		System.out.println(bob.method5());
 		
 	}
